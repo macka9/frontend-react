@@ -1,11 +1,8 @@
-# frontend-react
 # React + Flask Data Comparison App
 
-A simple full‑stack application built with **React frontend** and **Flask backend** to compare data sets.  
+A simple full‑stack application built with React frontend and Flask backend to compare data sets.  
 The React app provides a form for entering two sets of values, while the Flask server processes the input and returns the differences.  
 This project demonstrates basic integration between a modern frontend framework and a Python backend API.
-
----
 
 ## Features
 - Input data through a React form  
@@ -13,22 +10,18 @@ This project demonstrates basic integration between a modern frontend framework 
 - Display differences in real time  
 - CORS support for cross‑origin requests  
 
----
-
 ## Tech Stack
 - React (frontend)  
 - Flask (backend)  
 - Node.js + npm  
 - Python 3.12  
 
----
-
 ## Installation
 
 ### Backend (Flask)
-1. Navigate to the backend folder:
-   ```bash
-   cd backend
+Navigate to the backend folder:
+```bash
+cd backend
 Install dependencies:
 
 bash
@@ -71,7 +64,7 @@ npm install gh-pages --save-dev
 Add the following to package.json:
 
 json
-"homepage": "https://<your-username>.github.io/frontend-react",
+"homepage": "https://<username>.github.io/frontend-react",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
@@ -81,6 +74,4 @@ Deploy:
 bash
 npm run deploy
 Your app will be available at:
-
-Code
-https://<your-username>.github.io/frontend-react
+https://<username>.github.io/frontend-react
