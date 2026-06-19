@@ -74,4 +74,8 @@ Deploy:
 bash
 npm run deploy
 Your app will be available at:
+<<<<<<< HEAD
 https://<username>.github.io/frontend-react
+=======
+https://<username>.github.io/frontend-react
+>>>>>>> 30cb64889ff05b61ca8d7496093842cce0c2043a
